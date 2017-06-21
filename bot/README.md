@@ -1,2 +1,2 @@
 # Commando Bot
-A simple commando bot who doesn't want to works
+A simple commando bot who doesn't want to work.
