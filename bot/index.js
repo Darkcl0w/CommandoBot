@@ -29,8 +29,8 @@ bot.registry.registerCommandsIn(__dirname + "/commands");
 
 
 //Initialisation des prefixes
-const token = "MzI1NzAxMzQ2NjgwMzczMjQ5.DCcEkg.inwW1-Ieu41fVoCDaNIEZZmNhO4";
-var mention = "<@325701346680373249>";
+const token = "";
+var mention = "";
 var memberCount = bot.users.size;
 var servercount = bot.guilds.size;
 /*
