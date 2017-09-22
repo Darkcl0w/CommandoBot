@@ -1,13 +1,12 @@
 ﻿/*
 APP DETAILS
-Client ID: 325701346680373249
+Client ID: 
 Client Secret:
-p2hbBCjuAJXVoKtgxfkV_TaoMFUCN_Nk
+
 
 APP BOT USER
 Username: Wall-E#1484
 Token:
-MzI1NzAxMzQ2NjgwMzczMjQ5.DCcEkg.inwW1-Ieu41fVoCDaNIEZZmNhO4
 */
 
 //Initialisation du bot Client
@@ -38,7 +37,7 @@ var servercount = bot.guilds.size;
 bot.on("ready", () => {
 	var servers = bot.guilds.array().map(g => g.name).join(',');
 	console.log("--------------------------------------");
-console.log('[!]Connexion en cours... \n[!]Veuillez Patienter! \n[!]Les évenement sont après ! :)  \n[!]Les pr�fix actuels:  ' + prefix + "\n[!]Mentions = " + mention + "\n[!]Nombre de membres: " + memberCount + "\n[!]Nombre de serveurs: " + servercount);
+console.log('[!]Connexion en cours... \n[!]Veuillez Patienter! \n[!]Les évenement sont après ! :)  \n[!]Les pr�fix actuels:  ' + prefix + "\n[!]Mentions = " + mention + "\n[!]Nombre de membres: " + memberCount + "\n[!]Nombre de serveurs: " + servercount);
 });*/
 /*
 bot.on('message', message => {
